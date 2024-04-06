@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+@media (width > 900px) {
+}
+.header {
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  font-weight: 100 400;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 7px;
+}
+button {
+  width: 150px;
+  height: 100px;
+  padding: 1rem 1rem;
+  border-radius: 14px;
+  border: none;
+  float: left;
+  color: white;
+  display: flex;
+}
+.btn {
+  float: right;
+  width: 150px;
+  height: 100px;
+  padding: 1rem 1rem;
+  border-radius: 14px;
+  border: none;
+  color: white;
+}
+.col-sm-6 {
+  text-align: center;
+  flex-direction: row;
+}
+img {
+  width: 50%;
+  margin-left: 60px;
+}
+footer {
+  background-attachment: fixed;
+  background-color: grey;
+  display: flex;
+}
+
+@media (width > 900px) {
+  body {
+    background-repeat: no-repeat;
+    background-image: url(./images/bg-header-desktop.png);
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    display: flex;
+  }
+}
+
+.history {
+  justify-content: end;
+  text-transform: uppercase;
+  display: flex;
+
+}
+
+h4,h6{
+  text-align: center;
+}
+.quick{
+  text-align: center;
+}
+/* h6 {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+p {
+  color: black;
+}
+button {
+  width: 150px;
+  padding: 1rem 1rem;
+  border-radius: 14px;
+  border: none;
+  float: left;
+}
+.close-btn {
+  width: 150px;
+  padding: 1rem 1rem;
+  border-radius: 14px;
+  border: none;
+  float: left;
+}
+h5 {
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+.text{
+    text-align: center;
+} */
